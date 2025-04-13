@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Botón para cancelar el juego y regresar a la pantalla principal -->
+    <item
+        android:id="@+id/action_back_to_home"
+        android:title="Cancelar y volver a Inicio"
+        android:icon="@drawable/ic_arrow_back"
+        app:showAsAction="always" />
+
+    <!-- Botón para ver estadísticas -->
+    <item
+        android:id="@+id/action_stats"
+        android:title="Ver Estadísticas"
+        android:icon="@drawable/ic_baseline_visibility_24"
+        app:showAsAction="always" />
+
+</menu>
